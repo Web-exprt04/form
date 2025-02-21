@@ -1,0 +1,144 @@
+
+
+
+
+
+
+.two{
+    position: relative;
+    right: 250px;
+    top: -100px;
+    margin-right: 15px;
+    right: 400px;
+    }
+    .form{
+        display: flex;
+        gap: 20px;
+        position: relative;
+        left: 450px;
+        top: -50px;
+    }
+    .form a{
+        border: 1px solid grey;
+
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .form a:hover{
+
+        background: beige;
+    }
+    .registration{
+        border: 1px solid grey;
+        color: green;
+    }
+    .id-card, .results {
+        border: 1px solid grey;
+        color: blue;
+    }
+.studentportal{
+    position: relative;
+    left: 250px;
+    top: -100px;
+    border-radius: 10px  ;
+    color: rgb(0, 145, 255);
+    border: 1px solid rgb(106, 106, 150);
+}
+.studentportal:hover{
+    background: white;
+    
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 110%;
+    width: 60%;
+    box-shadow: 2px 4px 16px;
+    background-color: whitesmoke;
+    padding: 20px;
+    position: relative;
+    left: 200px;
+}
+.selectrow{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.selectgroup{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 5px
+    ;
+}
+.label, .upload-label{
+    color: blue;
+    margin-bottom: 5px;
+}
+.select , .input{
+    color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgreen;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}
+.select:hover{
+    border: 1px solid blue;
+
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    flex: 1;
+}
+.upload-container{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.upload-box{
+    width: 180px;
+    height: 180px;
+    border: 2px dashed blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold ;
+    color: blue;
+    padding: 10px;
+}
+.upload-instruction{
+    font-size: 13px;
+    column-rule-color: grey;
+    margin-top: 8px;
+    max-width: 250px;
+}
+.term-container{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+.terms-conatiner ol{
+    padding-left: 20px;
+}
+.terms-container li{
+    margin-bottom: 8px;
+}
